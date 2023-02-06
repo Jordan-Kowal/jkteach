@@ -1,0 +1,22 @@
+site_name: JKTeach
+repo_url: https://github.com/Jordan-Kowal/jkteach
+repo_name: GitHub
+site_description: Learn to code through simple and easy to understand tutorials.
+site_author: Jordan Kowal
+copyright: Copyright © 2022+ JKDev. All Rights Reserved.
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Python:
+    - Getting started:
+      - Installing Python: python/setup/about.md
+      - Intepreter: python/setup/about_2.md
+      - Text Editor: python/setup/about_2.md
+    - Learning the basics:
+      - Strings: python/basics/about_3.md
+
+theme:
+    name: material
+    highlightjs: true
+    navigation_depth: 3
