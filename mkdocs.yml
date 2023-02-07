@@ -5,18 +5,84 @@ site_description: Learn to code through simple and easy to understand tutorials.
 site_author: Jordan Kowal
 copyright: Copyright © 2022+ JKDev. All Rights Reserved.
 
+
 nav:
-  - Home: index.md
-  - About: about.md
+  - Accueil: index.md
+  - À propos: about.md
   - Python:
-    - Getting started:
-      - Installing Python: python/setup/about.md
-      - Intepreter: python/setup/about_2.md
-      - Text Editor: python/setup/about_2.md
-    - Learning the basics:
-      - Strings: python/basics/about_3.md
+    - Introduction:
+      - C'est quoi Python?: python/introduction/what_is_python.md
+      - Installer Python: python/introduction/installing_python.md
+      - Interpréteur Python: python/introduction/python_terminal.md
+      - Editeurs de text: python/introduction/text_editors.md
+    - Les bases:
+      - Variables: python/basics/variables.md
+      - Strings: python/basics/strings.md
+      - Numbers: python/basics/numbers.md
+      - Lists: python/basics/lists.md
+      - Tuples: python/basics/tuples.md
+      - Dictionaries: python/basics/dictionaries.md
+      - Sets: python/basics/sets.md
+      - Booleans: python/basics/booleans.md
+    - Controle de flux:
+      - If, elif, else: python/flow_control/conditions.md
+      - For loops: python/flow_control/for_loops.md
+      - While loops: python/flow_control/while_loops.md
+      - Functions: python/flow_control/functions.md
+      - Errors: python/flow_control/errors.md
+      - If name == main: python/flow_control/if_name_main.md
+    - Orienté Objet:
+      - Classes: python/oop/classes.md
+      - Magic methods: python/oop/magic_methods.md
+      - Methods: python/oop/methods.md
+      - Setattr et Getattr: python/oop/setattr_and_getattr.md
+      - Inheritance: python/oop/inheritance.md
+      - Iterators: python/oop/iterators.md
+      - Context managers: python/oop/context_managers.md
+      - Metaclasses: python/oop/metaclasses.md
+    - Gestion des packages:
+      - Librairie standard: python/packages/standard_library.md
+      - Importer des modules: python/packages/imports.md
+      - Pip: python/packages/pip.md
+      - Environnement virtuel: python/packages/venv.md
+      - Modules et packages: python/packages/modules_and_packages.md
+    - Concepts avancés:
+      - Unpacking: python/advanced/unpacking.md
+      - '*args et **kwargs': python/advanced/args_and_kwargs.md
+      - Shallow and Deep copy: python/advanced/shallow_and_deep_copy.md
+      - Fichiers: python/advanced/files.md
+      - Regex: python/advanced/regex.md
+      - Decorators: python/advanced/decorators.md
+      - Generators: python/advanced/generators.md
+      - Threading: python/advanced/threading.md
+      - Multiprocessing: python/advanced/multiprocessing.md
+    - Concepts globaux:
+      - Notation Big O: python/programming_concepts/big_o_notation.md
+      - Algorithmes de tri: python/programming_concepts/sorting_algorithms.md
+      - Data structures: python/programming_concepts/data_structures.md
+      - Duck Typing: python/programming_concepts/duck_typing.md
+      - Recursion: python/programming_concepts/recursion.md
+      - Memoization: python/programming_concepts/memoization.md
+      - Parsing: python/programming_concepts/parsing.md
+    - Outils de qualité du code:
+      - Linting et Formatting: python/code_quality/linter_and_formatter.md
+      - Type hinting: python/code_quality/type_hinting.md
+      - Docstrings: python/code_quality/docstrings.md
+      - Testing: python/code_quality/testing.md
+      - Pre-commit: python/code_quality/pre_commit.md
+    - Aller plus loin:
+      - Async: python/next_steps/async.md
+      - Interface graphique: python/next_steps/gui.md
+      - Web scraping: python/next_steps/web_scraping.md
+      - Web development: python/next_steps/web_development.md
+      - Data science: python/next_steps/data_science.md
+      - Packages utiles: python/next_steps/useful_packages.md
+
 
 theme:
     name: material
+    language: fr
+    palette:
+      scheme: slate
     highlightjs: true
     navigation_depth: 3

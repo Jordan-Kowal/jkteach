@@ -1,0 +1,4 @@
+property
+staticmethod
+classmethod
+"private"
