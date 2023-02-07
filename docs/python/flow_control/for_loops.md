@@ -1,2 +1,4 @@
 range
-lambda
+break/continue
+enumerate
+zip

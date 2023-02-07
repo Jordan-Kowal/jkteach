@@ -1,0 +1,1 @@
+Tout element a une valeur booleable

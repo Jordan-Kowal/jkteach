@@ -1,0 +1,3 @@
+comprehensions
+ordonnées homogene
+slicing
