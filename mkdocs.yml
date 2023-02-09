@@ -11,7 +11,7 @@ nav:
   - À propos: about.md
   - Python:
     - Introduction:
-      - C'est quoi Python?: python/introduction/what_is_python.md
+      - C'est quoi Python ?: python/introduction/what_is_python.md
       - Installer Python: python/introduction/installing_python.md
       - Interpréteur Python: python/introduction/python_terminal.md
       - Editeurs de text: python/introduction/text_editors.md
