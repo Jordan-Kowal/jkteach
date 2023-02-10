@@ -1,6 +1,12 @@
+---
+title: C'est quoi Python ?
+description: Présentation du langage de programmation Python et du programme/logiciel Python
+---
+
 # C'est quoi Python ?
 
 Quand on parle de **Python**, on parle souvent de deux choses étroitement liées :
+
 - Le langage de programmation, qui est la manière d'écrire les instructions que l'ordinateur va exécuter
 - Le programme/logiciel Python, qui va permettre d'exécuter des fichiers "_écrits en langage python_"
 
@@ -36,6 +42,7 @@ La compilation consiste à traduire le programme en langage machine, qui est le 
 
 **Orienté objet** : Il existe plusieurs façons de programmer. On parle de paradigmes de programmation.
 Les 3 plus communs sont :
+
 - La programmation impérative ou procédurale
 - La programmation fonctionnelle
 - La programmation orientée objet
@@ -55,6 +62,7 @@ b = 1.5  # b est maintenant un nombre à virgule flottante
 Cela présente de nombreux avantages, mais aussi quelques inconvénients dont nous parlerons plus tard.
 
 **Généraliste** : Python peut être utilisé dans des domaines très différents :
+
 - Écriture de scripts en tout genre
 - Édition de logiciels
 - Développement web
@@ -73,15 +81,17 @@ et ensuite vous pourrez l'exécuter.
 
 Pour clarifier un peu plus la distinction entre le "programme" et le "langage",
 prenons l'exemple du logiciel Microsoft Word :
+
 - Lorsque vous lancez le programme Microsoft Word, cela ouvre un document vierge
 - Lorsque vous ouvrez un fichier **.docx** avec Microsoft Word, cela ouvre ce document DANS word
 
 Pour Python, la même mécanique est disponible :
+
 - Si vous lancez juste le programme python, cela va lancer **l'interpréteur** python
 - Si vous lancez un fichier **.py** avec python, cela va :
-  - Ouvrir un interpréteur python
-  - Exécuter votre fichier
-  - Et fermer l'interpréteur python automatiquement
+    - Ouvrir un interpréteur python
+    - Exécuter votre fichier
+    - Et fermer l'interpréteur python automatiquement
 
 ## Interpréteur
 
@@ -93,6 +103,7 @@ Si vous lancez Python (sans préciser de fichier), l'interpréteur sera **intera
 Vous pourrez écrire des instructions à la main et voir en direct leur résultat.
 
 Si vous demandez à Python d'exécuter un fichier :
+
 - Vous ne pourrez pas interagir avec l'interpréteur (sauf si le code le permet)
 - L'interpréteur va exécuter toutes les instructions du fichier, une par une
 - Une fois le fichier terminé, l'interpréteur va se fermer automatiquement
